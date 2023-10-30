@@ -1,0 +1,45 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Sat Oct 28 15:13:45 2023
+* Design path:          /home/vlsi/Desktop/karim/lib.defs
+* Library:              karim
+* Cell:                 inv
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt inv In Out Gnd Vdd 
+* Library name: karim
+* Cell name: inv
+* View name: schematic
+* PORT=Out TYPE=Out
+* PORT=In TYPE=In
+* PORT=Gnd TYPE=Other
+* PORT=Vdd TYPE=Other
+
+MM1n Out In Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4800 $y=3000 $w=400 $h=600
+MM2p Out In Vdd Vdd PMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=4800 $y=4000 $w=400 $h=600
+.ends
+
+
+

@@ -1,0 +1,24 @@
+//
+//  Rule file generated on Fri Oct 27 15:03:11 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "Cell3_inv.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "Cell3_inv"
+
+DRC RESULTS DATABASE "Cell3_inv.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "Cell3_inv.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_DRC.cal"

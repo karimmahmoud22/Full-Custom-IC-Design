@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1698498827 1698498827
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/karim
+lvs_ExtOutFile RULES_FILE _Generic_250nm_xRC.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/inv.sp
+lvs_ExtOutFile EXTRACTION_REPORT inv.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/inv.pdsp }

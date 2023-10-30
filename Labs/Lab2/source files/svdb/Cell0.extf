@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1698411604 1698411604
+lvs_ExtOutFile RUNDIR /home/vlsi/INV
+lvs_ExtOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST Cell0.sp
+lvs_ExtOutFile EXTRACTION_REPORT Cell0.lvs.report.ext

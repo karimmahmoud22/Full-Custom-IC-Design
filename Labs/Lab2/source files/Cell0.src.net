@@ -1,0 +1,47 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Fri Oct 27 15:00:03 2023
+* Design path:          /home/vlsi/INV/lib.defs
+* Library:              INV
+* Cell:                 Cell0
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt Cell0 Unknown_Pin_gnd In Out Unknown_Pin_vdc Gnd Vdd 
+* Library name: INV
+* Cell name: Cell0
+* View name: schematic
+* PORT=Gnd TYPE=Other
+* PORT=In TYPE=In
+* PORT=Vdd TYPE=Other
+* PORT=Out TYPE=Out
+* PORT=vdc TYPE=InOut
+* PORT=gnd TYPE=InOut
+
+MMn1 Out In Gnd Out NMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=3000 $y=4200 $w=400 $h=600
+MMp1 Out In Vdd Vdd PMOS25 w=1.5u l=250n m=1 ad=975f pd=4.3u as=975f ps=4.3u nrd=433.33333m nrs=433.33333m mult=1 delvto=0 mulu0=1 $ $x=3000 $y=5300 $w=400 $h=600
+.ends
+
+
+

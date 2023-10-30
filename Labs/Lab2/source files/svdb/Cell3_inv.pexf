@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/INV
+pex_PexParam LAYOUT_PRIMARY Cell3_inv
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {Cell3_inv "" Cell3_inv.pdb "" } } 

@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/INV
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 1 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT Cell0.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST Cell0.src.net
+lvs_LvsOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_LvsRunTimes 1698411604 1698411604

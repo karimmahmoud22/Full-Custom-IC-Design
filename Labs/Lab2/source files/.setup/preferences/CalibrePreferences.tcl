@@ -1,0 +1,1 @@
+setup calibre set -control {LVS SPICE} -insert .SUBCKT\ NMOS25\ D\ G\ S\ B\r\n.ENDS\r\n.SUBCKT\ PMOS25\ D\ G\ S\ B\r\n.ENDS\r\n.SUBCKT\ NMOS33\ D\ G\ S\ B\r\n.ENDS\r\n.SUBCKT\ PMOS33\ D\ G\ S\ B\r\n.ENDS -append {} -cellmaps /eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic250nm.cellmap -viewname calibreview -resetproperties m=1

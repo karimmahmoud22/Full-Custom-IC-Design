@@ -1,0 +1,31 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Cell3_inv.dv
+dv_start unmatched                                
+dv_cell {Cell3_inv} {Cell3_inv} unmatched
+dv_obj_count -transformed_nets {4 4} -transformed_inst {2 2} -transformed_port {4 4}
+dv_discrep 1 {Incorrect Nets} -inst_count { 3 4}
+dv_discrep_line {Net } -lnet {Out} {                                                   } -snet {Out} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  } -sdev {MMn1} {:}  {b} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 3 2}
+dv_discrep_line {Net } -lnet {Gnd} {                                                   } -snet {Gnd} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 2 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {M0} {} -lloc {(11.530,-3.335)} {:}  {b} {                                       ** missing connection **}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {} -ldev {M0} {} -lloc {(11.530,-3.335)} {  MN(NMOS25)                             } -sdev {MMn1} {  MN(NMOS25)}
+dv_discrep_line {  } -lport {g} {: } -lnet {In} {                                                     } -sport {g} {: } -snet {In} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {Gnd} {                                                    } -sport {s} {: } -snet {Gnd} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {Out} {                                                    } -sport {d} {: } -snet {Out} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {Gnd} {                                                    ** } -snet {Gnd} { **}
+dv_discrep_line {  ** } -lnet {Out} { **                                                 } -sport {b} {: } -snet {Out} {}
+dv_discrep_line {}
+dv_end

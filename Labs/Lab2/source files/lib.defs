@@ -1,0 +1,20 @@
+DEFINE INV INV
+ASSIGN INV libMode shared
+DEFINE Generic_250nm_AnalogLib ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Generic_250nm_AnalogLib
+ASSIGN Generic_250nm_AnalogLib libMode shared
+DEFINE Generic_250nm_Devices ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Generic_250nm_Devices
+ASSIGN Generic_250nm_Devices libMode shared
+DEFINE Generic_250nm_LogicGates ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Generic_250nm_LogicGates
+ASSIGN Generic_250nm_LogicGates libMode shared
+DEFINE Misc ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/Misc
+ASSIGN Misc libMode shared
+DEFINE Devices ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/Devices
+ASSIGN Devices libMode shared
+DEFINE SPICE_Measure ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/SPICE_Measure
+ASSIGN SPICE_Measure libMode shared
+DEFINE SPICE_Commands ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/SPICE_Commands
+ASSIGN SPICE_Commands libMode shared
+DEFINE SPICE_Plot ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/SPICE_Plot
+ASSIGN SPICE_Plot libMode shared
+DEFINE SPICE_Sources ../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/SPICE_Sources
+ASSIGN SPICE_Sources libMode shared

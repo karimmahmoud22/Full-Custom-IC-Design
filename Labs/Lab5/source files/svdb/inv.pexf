@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/Desktop/karim
+pex_PexParam LAYOUT_PRIMARY inv
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {inv "" inv.pdb "" } } 

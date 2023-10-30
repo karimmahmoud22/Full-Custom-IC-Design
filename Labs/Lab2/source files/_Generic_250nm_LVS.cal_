@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Fri Oct 27 15:05:39 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "Cell3_inv.sp"
+LAYOUT SYSTEM SPICE
+LAYOUT PRIMARY "Cell3_inv"
+
+SOURCE PATH "Cell3_inv.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "Cell3_inv"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "Cell3_inv.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "Cell3_inv.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_LVS.cal"

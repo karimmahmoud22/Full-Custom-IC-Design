@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsi
+HostName                       elc-vlsi-sm-16-lnx
+ProcessIdentifier              8857
+ProcessCreationTime_UTC        1698399005
+ProcessCreationTime_Readable   Fri Oct 27 11:30:05 2023 
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/vlsi/INV/INV/Cell0/symbol/symbol.oa.cdslck
+TimeEditLocked                 Fri Oct 27 11:40:43 2023 

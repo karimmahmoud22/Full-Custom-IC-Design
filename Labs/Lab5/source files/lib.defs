@@ -1,0 +1,5 @@
+DEFINE karim karim
+ASSIGN karim libMode shared
+INCLUDE /home/vlsi/Desktop/TannerTools_v2022.2/Process/Generic_250nm/lib.defs
+DEFINE analogLib ../TannerTools_v2022.2/Process/Standard_Libraries/analogLib
+ASSIGN analogLib libMode shared

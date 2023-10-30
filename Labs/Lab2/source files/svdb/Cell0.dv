@@ -1,0 +1,14 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Cell0.dv
+dv_start unmatched                                
+dv_cell {Cell0} {Cell0} unmatched
+dv_obj_count -transformed_nets {4 4} -transformed_inst {1 1} -transformed_port {4 4}
+dv_discrep 1 {Incorrect Instances}
+dv_discrep_line {} -ldev {M0} {} -lloc {(0.705,-1.745)} {  MN(NMOS25)                              } -sdev {MMn1} {  MN(NMOS25)}
+dv_discrep_line {  } -lport {g} {: } -lnet {In} {                                                     } -sport {g} {: } -snet {In} {}
+dv_discrep_line {  } -lport {s} {: } -lnet {Out} {                                                    } -sport {s} {: } -snet {Out} {}
+dv_discrep_line {  } -lport {d} {: } -lnet {Gnd} {                                                    } -sport {d} {: } -snet {Gnd} {}
+dv_discrep_line {  } -lport {b} {: } -lnet {Gnd} {                                                    ** } -snet {Gnd} { **}
+dv_discrep_line {  ** } -lnet {Out} { **                                                 } -sport {b} {: } -snet {Out} {}
+dv_discrep_line {}
+dv_end
