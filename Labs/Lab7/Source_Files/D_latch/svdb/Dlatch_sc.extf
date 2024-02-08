@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1699524956 1699524956
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/D_latch
+lvs_ExtOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST Dlatch_sc.sp
+lvs_ExtOutFile EXTRACTION_REPORT Dlatch_sc.lvs.report.ext

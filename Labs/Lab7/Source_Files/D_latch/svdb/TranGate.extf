@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1698834935 1698834936
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/D_latch
+lvs_ExtOutFile RULES_FILE __Generic_250nm_LVS.cal__
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST TranGate.sp
+lvs_ExtOutFile EXTRACTION_REPORT TranGate.lvs.report.ext

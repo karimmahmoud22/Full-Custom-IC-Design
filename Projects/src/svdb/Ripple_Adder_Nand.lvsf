@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/Desktop/Karim_Project_Nand
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 9}
+lvs_LvsComparisonSummary {2 0 0 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT Ripple_Adder_Nand.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST Ripple_Adder_Nand.src.net
+lvs_LvsOutFile RULES_FILE _Generic_250nm_LVS.cal_

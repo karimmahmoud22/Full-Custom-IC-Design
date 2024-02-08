@@ -1,0 +1,55 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Sat Nov 25 17:56:25 2023
+* Design path:          /home/vlsi/Desktop/Karim_Project/lib.defs
+* Library:              Karim_Project
+* Cell:                 xor_gate
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt xor_gate A B Out Gnd Vdd 
+* Library name: Karim_Project
+* Cell name: xor_gate
+* View name: schematic
+* PORT=B TYPE=In
+* PORT=Vdd TYPE=Other
+* PORT=Out TYPE=Out
+* PORT=Gnd TYPE=Other
+* PORT=A TYPE=In
+
+MM7n Out N4 Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=7600 $y=3900 $w=400 $h=600
+MM8n N4 B Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=2100 $y=2600 $w=400 $h=600
+MM9n N4 A Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=3700 $y=2600 $w=400 $h=600 $m
+MM10n Out B N5 Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=5700 $y=2600 $w=400 $h=600 $m
+MM11n N5 A Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=5300 $y=1800 $w=400 $h=600
+MM1p N1 A Vdd Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=3100 $y=4800 $w=400 $h=600 $m
+MM2p N2 A Vdd Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=4600 $y=4800 $w=400 $h=600
+MM3p N4 B N1 Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=2700 $y=3900 $w=400 $h=600
+MM4p N3 B Vdd Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=6400 $y=4800 $w=400 $h=600 $m
+MM5p Out N4 N2 Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=4600 $y=3900 $w=400 $h=600
+MM6p Out N4 N3 Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=6400 $y=3900 $w=400 $h=600 $m
+.ends
+
+
+

@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/Desktop/D_latch
+pex_PexParam LAYOUT_PRIMARY Dlatch_sc
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {Dlatch_sc "" Dlatch_sc.pdb "" } } 

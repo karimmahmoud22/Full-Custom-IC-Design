@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1700925959 1700925959
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/Karim_Project
+lvs_ExtOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST OR_Gate.sp
+lvs_ExtOutFile EXTRACTION_REPORT OR_Gate.lvs.report.ext

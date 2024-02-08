@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1699272456 1699272456
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/D_latch
+lvs_ExtOutFile RULES_FILE ___Generic_250nm_xRC.cal___
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/D_FlipFlop.sp
+lvs_ExtOutFile EXTRACTION_REPORT D_FlipFlop.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/D_FlipFlop.pdsp }

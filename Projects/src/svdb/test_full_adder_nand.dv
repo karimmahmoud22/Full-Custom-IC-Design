@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/test_full_adder_nand.dv
+dv_start matched                                  
+dv_cell {test_full_adder_nand} {test_full_adder_nand} matched
+dv_obj_count -transformed_nets {16 16} -transformed_inst {11 11} -transformed_port {7 7}
+dv_end

@@ -1,0 +1,3 @@
+DEFINE Karim_Project Karim_Project
+ASSIGN Karim_Project libMode shared
+INCLUDE /eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/lib.defs

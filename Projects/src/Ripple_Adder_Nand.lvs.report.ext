@@ -1,0 +1,30 @@
+
+
+       #############################################################
+       ##                                                         ##
+       ##               C A L I B R E    S Y S T E M              ##
+       ##                                                         ##
+       ##    C I R C U I T   E X T R A C T I O N   R E P O R T    ##
+       ##                                                         ##
+       #############################################################
+
+
+REPORT FILE NAME:         Ripple_Adder_Nand.lvs.report.ext
+LAYOUT NAME:              Ripple_Adder_Nand.calibre.db ('Ripple_Adder_Nand')
+CREATION TIME:            Sun Dec  3 18:59:35 2023
+CURRENT DIRECTORY:        /home/vlsi/Desktop/Karim_Project_Nand
+USER NAME:                vlsi
+CALIBRE VERSION:          v2023.3_29.15    Tue Aug 1 13:25:59 PDT 2023
+
+
+
+Extraction Errors and Warnings for cell "Ripple_Adder_Nand"
+-----------------------------------------------------------
+
+WARNING:  Short circuit - Different names on one net:
+          Net Id:  7
+          (1)  name  "Gnd"  at location  (29.56,27.805)  on layer  212 "Metal1_Pin"
+          (2)  name  "vss!"  at location  (30.74,27.795)  on layer  212 "Metal1_Pin"
+          The name "Gnd" was assigned to the net.
+
+

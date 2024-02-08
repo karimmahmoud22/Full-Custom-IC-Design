@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/Desktop/Karim_Project
+pex_PexParam LAYOUT_PRIMARY Inverter_Gater
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {Inverter_Gater "" Inverter_Gater.pdb "" } } 

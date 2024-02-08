@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/Desktop/D_latch
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT D_FlipFlop.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST D_FlipFlop.src.net
+lvs_LvsOutFile RULES_FILE ___Generic_250nm_xRC.cal___
+lvs_LvsRunTimes 1699272456 1699272456

@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/Desktop/D_latch
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT TranGate.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST TranGate.src.net
+lvs_LvsOutFile RULES_FILE __Generic_250nm_LVS.cal__
+lvs_LvsRunTimes 1698834936 1698834936

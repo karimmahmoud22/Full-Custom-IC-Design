@@ -1,0 +1,63 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Sun Dec  3 19:10:35 2023
+* Design path:          /home/vlsi/Desktop/Karim_Project_Nand/lib.defs
+* Library:              Karim_Project
+* Cell:                 C00
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt INV A Z inh_vdd inh_vss 
+* Library name: Generic_250nm_LogicGates
+* Cell name: INV
+* View name: schematic
+* PORT=Z TYPE=Out
+* PORT=A TYPE=In
+* PORT=[@vdd:%:vdd!] TYPE=Virtual
+* PORT=[@vss:%:vss!] TYPE=Virtual
+
+* Design: Generic_250nm_LogicGates / Cell: INV / View: schematic / Page: Page0
+* Designed by: Tanner EDA Library Development Team
+* Organization: Tanner EDA - Mentor Graphics
+* Info: Inverter
+* Date: Sat Nov 16 01:47:42 2019
+* Revision: 13 $ $x=7600 $y=600 $w=3600 $h=1200
+MM1n Z A inh_vss inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4600 $y=2600 $w=400 $h=600
+MM2p Z A inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=4600 $y=3600 $w=400 $h=600
+.ends
+
+.subckt C00 C00 Cin vdd! vss! 
+* Library name: Karim_Project
+* Cell name: C00
+* View name: schematic
+* PORT=vdd! TYPE=Other
+* PORT=Cin TYPE=In
+* PORT=C00 TYPE=Out
+* PORT=vss! TYPE=Other
+
+XX1 Cin C00 vdd! vss! INV $ $x=4400 $y=4000 $w=600 $h=400
+.ends
+
+
+

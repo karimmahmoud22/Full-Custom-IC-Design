@@ -1,0 +1,163 @@
+
+
+==================================================================================
+=== CALIBRE::DRC-H SUMMARY REPORT
+===
+Execution Date/Time:       Sat Dec  9 17:52:41 2023
+Calibre Version:           v2023.3_29.15    Tue Aug 1 13:25:59 PDT 2023
+Rule File Pathname:        _Generic_250nm_DRC.cal_
+Rule File Title:           Generic 0.25 um Process
+Layout System:             GDS
+Layout Path(s):            Half_Adder.calibre.db
+Layout Primary Cell:       Half_Adder
+Current Directory:         /home/vlsi/Desktop/Karim_Project_Nand22
+User Name:                 vlsi
+Maximum Results/RuleCheck: 1000
+Maximum Result Vertices:   4096
+DRC Results Database:      Half_Adder.drc.results (ASCII)
+Layout Depth:              ALL
+Text Depth:                PRIMARY
+Summary Report File:       Half_Adder.drc.summary (REPLACE)
+Geometry Flagging:         ACUTE = YES  SKEW = YES  ANGLED = NO  OFFGRID = NO
+                           NONSIMPLE POLYGON = YES  NONSIMPLE PATH = NO
+Excluded Cells:           
+CheckText Mapping:         COMMENT TEXT + RULE FILE INFORMATION
+Layers:                    MEMORY-BASED
+Keep Empty Checks:         NO
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER PImplant ........ TOTAL Original Geometry Count = 6  (6)
+LAYER NImplant ........ TOTAL Original Geometry Count = 6  (6)
+LAYER Poly ............ TOTAL Original Geometry Count = 23 (23)
+LAYER Active .......... TOTAL Original Geometry Count = 34 (36)
+LAYER ResistorID ...... TOTAL Original Geometry Count = 0  (0)
+LAYER DeepNWell ....... TOTAL Original Geometry Count = 0  (0)
+LAYER Contact ......... TOTAL Original Geometry Count = 45 (60)
+LAYER ThickActive ..... TOTAL Original Geometry Count = 0  (0)
+LAYER TCP ............. TOTAL Original Geometry Count = 0  (0)
+LAYER Via3 ............ TOTAL Original Geometry Count = 0  (0)
+LAYER SilicideBlock ... TOTAL Original Geometry Count = 0  (0)
+LAYER Passivation ..... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal4 .......... TOTAL Original Geometry Count = 0  (0)
+LAYER Metal1 .......... TOTAL Original Geometry Count = 90 (92)
+LAYER NWell ........... TOTAL Original Geometry Count = 3  (3)
+LAYER Metal2 .......... TOTAL Original Geometry Count = 19 (19)
+LAYER Metal3 .......... TOTAL Original Geometry Count = 3  (3)
+LAYER PWell ........... TOTAL Original Geometry Count = 0  (0)
+LAYER Via1 ............ TOTAL Original Geometry Count = 10 (10)
+LAYER Via2 ............ TOTAL Original Geometry Count = 2  (2)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK NW.SD ......... TOTAL Result Count = 0 (0)
+RULECHECK NW.FS ......... TOTAL Result Count = 0 (0)
+RULECHECK NW.W .......... TOTAL Result Count = 0 (0)
+RULECHECK NW.S .......... TOTAL Result Count = 0 (0)
+RULECHECK DNW.W ......... TOTAL Result Count = 0 (0)
+RULECHECK DNW.S ......... TOTAL Result Count = 0 (0)
+RULECHECK DNW.SNW ....... TOTAL Result Count = 0 (0)
+RULECHECK NW.ODNW ....... TOTAL Result Count = 0 (0)
+RULECHECK NW.XDNW ....... TOTAL Result Count = 0 (0)
+RULECHECK PW.W .......... TOTAL Result Count = 0 (0)
+RULECHECK PW.S .......... TOTAL Result Count = 0 (0)
+RULECHECK NIm.S ......... TOTAL Result Count = 0 (0)
+RULECHECK PIm.S ......... TOTAL Result Count = 0 (0)
+RULECHECK NIm.W ......... TOTAL Result Count = 0 (0)
+RULECHECK PIm.W ......... TOTAL Result Count = 0 (0)
+RULECHECK Im.NP ......... TOTAL Result Count = 0 (0)
+RULECHECK Im.XAc ........ TOTAL Result Count = 0 (0)
+RULECHECK Ac.W .......... TOTAL Result Count = 0 (0)
+RULECHECK Ac.S .......... TOTAL Result Count = 0 (0)
+RULECHECK Ac.SPW ........ TOTAL Result Count = 0 (0)
+RULECHECK Ac.SNW ........ TOTAL Result Count = 0 (0)
+RULECHECK Ac.SCW ........ TOTAL Result Count = 0 (0)
+RULECHECK Ac.SSCW ....... TOTAL Result Count = 0 (0)
+RULECHECK Ac.AcIm ....... TOTAL Result Count = 0 (0)
+RULECHECK ThAc.O ........ TOTAL Result Count = 0 (0)
+RULECHECK Ac.XP ......... TOTAL Result Count = 0 (0)
+RULECHECK Ac.XSb ........ TOTAL Result Count = 0 (0)
+RULECHECK ThAc.W ........ TOTAL Result Count = 0 (0)
+RULECHECK ThAc.S ........ TOTAL Result Count = 0 (0)
+RULECHECK ThAc.SAc ...... TOTAL Result Count = 0 (0)
+RULECHECK Po.W .......... TOTAL Result Count = 0 (0)
+RULECHECK Po.WHV ........ TOTAL Result Count = 0 (0)
+RULECHECK Po.S .......... TOTAL Result Count = 0 (0)
+RULECHECK Po.SPAc ....... TOTAL Result Count = 0 (0)
+RULECHECK Po.XAc ........ TOTAL Result Count = 0 (0)
+RULECHECK Po.SAc ........ TOTAL Result Count = 0 (0)
+RULECHECK Po.XSb ........ TOTAL Result Count = 0 (0)
+RULECHECK Co.W .......... TOTAL Result Count = 0 (0)
+RULECHECK Co.S .......... TOTAL Result Count = 0 (0)
+RULECHECK Co.SG ......... TOTAL Result Count = 0 (0)
+RULECHECK Co.EPo ........ TOTAL Result Count = 0 (0)
+RULECHECK Co.EAc ........ TOTAL Result Count = 0 (0)
+RULECHECK Co.EIm ........ TOTAL Result Count = 0 (0)
+RULECHECK Co.AcGt ....... TOTAL Result Count = 0 (0)
+RULECHECK M1.W .......... TOTAL Result Count = 0 (0)
+RULECHECK M1.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M1.SW ......... TOTAL Result Count = 0 (0)
+RULECHECK M1.SL ......... TOTAL Result Count = 0 (0)
+RULECHECK M1.V1 ......... TOTAL Result Count = 0 (0)
+RULECHECK V1.W .......... TOTAL Result Count = 0 (0)
+RULECHECK V1.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M2.W .......... TOTAL Result Count = 0 (0)
+RULECHECK M2.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M2.SW ......... TOTAL Result Count = 0 (0)
+RULECHECK M2.SL ......... TOTAL Result Count = 0 (0)
+RULECHECK M2.V1 ......... TOTAL Result Count = 0 (0)
+RULECHECK M2.V2 ......... TOTAL Result Count = 0 (0)
+RULECHECK V2.W .......... TOTAL Result Count = 0 (0)
+RULECHECK V2.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M3.W .......... TOTAL Result Count = 0 (0)
+RULECHECK M3.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M3.SW ......... TOTAL Result Count = 0 (0)
+RULECHECK M3.SL ......... TOTAL Result Count = 0 (0)
+RULECHECK M3.V2 ......... TOTAL Result Count = 0 (0)
+RULECHECK M3.V3 ......... TOTAL Result Count = 0 (0)
+RULECHECK V3.W .......... TOTAL Result Count = 0 (0)
+RULECHECK V3.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M4.W .......... TOTAL Result Count = 0 (0)
+RULECHECK M4.S .......... TOTAL Result Count = 0 (0)
+RULECHECK M4.SW ......... TOTAL Result Count = 0 (0)
+RULECHECK M4.SL ......... TOTAL Result Count = 0 (0)
+RULECHECK M4.V3 ......... TOTAL Result Count = 0 (0)
+RULECHECK M4.EP ......... TOTAL Result Count = 0 (0)
+RULECHECK Pad.SM4 ....... TOTAL Result Count = 0 (0)
+RULECHECK Pad.SM3 ....... TOTAL Result Count = 0 (0)
+RULECHECK Pad.SM2 ....... TOTAL Result Count = 0 (0)
+RULECHECK Pad.SM1 ....... TOTAL Result Count = 0 (0)
+RULECHECK Pad.SPo ....... TOTAL Result Count = 0 (0)
+RULECHECK Pad.SAc ....... TOTAL Result Count = 0 (0)
+RULECHECK Sb.W .......... TOTAL Result Count = 0 (0)
+RULECHECK Sb.S .......... TOTAL Result Count = 0 (0)
+RULECHECK Sb.SCo ........ TOTAL Result Count = 0 (0)
+RULECHECK Sb.SAc ........ TOTAL Result Count = 0 (0)
+RULECHECK Sb.SPo ........ TOTAL Result Count = 0 (0)
+RULECHECK Sb.WPo ........ TOTAL Result Count = 0 (0)
+RULECHECK Sb.SRes ....... TOTAL Result Count = 0 (0)
+RULECHECK Sb.EPo ........ TOTAL Result Count = 0 (0)
+RULECHECK Sb.EAc ........ TOTAL Result Count = 0 (0)
+RULECHECK Sb.SGate ...... TOTAL Result Count = 0 (0)
+RULECHECK Pass.W ........ TOTAL Result Count = 0 (0)
+RULECHECK M1Gt.A ........ TOTAL Result Count = 0 (0)
+RULECHECK PoM1Gt.A ...... TOTAL Result Count = 0 (0)
+RULECHECK PoM1Gt.AMPo ... TOTAL Result Count = 0 (0)
+RULECHECK PoM1Gt.AMM1 ... TOTAL Result Count = 0 (0)
+RULECHECK PoM1Gt.AM ..... TOTAL Result Count = 0 (0)
+RULECHECK PoM1Gt.ANd1 ... TOTAL Result Count = 0 (0)
+RULECHECK PoM1Gt.ANd2 ... TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS (BY CELL)
+---
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                  0
+TOTAL REAL Time:                 0
+TOTAL Original Layer Geometries: 241 (260)
+TOTAL DRC RuleChecks Executed:   97
+TOTAL DRC Results Generated:     0 (0)

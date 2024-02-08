@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/RAN.dv
+dv_start matched                                  
+dv_cell {RAN} {RAN} matched
+dv_obj_count -transformed_nets {55 55} -transformed_inst {132 132} -transformed_port {16 16}
+dv_end

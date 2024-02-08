@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/Desktop/Karim_Project_Nand22
+pex_PexParam LAYOUT_PRIMARY Half_Adder
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {Half_Adder "" Half_Adder.pdb "" } } 

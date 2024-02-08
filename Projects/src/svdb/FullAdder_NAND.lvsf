@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/Desktop/Karim_Project_Nand22
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT FullAdder_NAND.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST FullAdder_NAND.src.net
+lvs_LvsOutFile RULES_FILE _Generic_250nm_xRC.cal_
+lvs_LvsRunTimes 1702136893 1702136893

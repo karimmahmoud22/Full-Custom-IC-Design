@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/vlsi/Desktop/D_latch
+pex_PexParam LAYOUT_PRIMARY D_FlipFlop
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {D_FlipFlop "" D_FlipFlop.pdb "" } } 

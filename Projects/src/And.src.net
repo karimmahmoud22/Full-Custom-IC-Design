@@ -1,0 +1,50 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Sat Nov 25 17:19:43 2023
+* Design path:          /home/vlsi/Desktop/Karim_Project/lib.defs
+* Library:              Karim_Project
+* Cell:                 And
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt And A B Out Gnd Vdd 
+* Library name: Karim_Project
+* Cell name: And
+* View name: schematic
+* PORT=Gnd TYPE=Other
+* PORT=A TYPE=In
+* PORT=Out TYPE=Out
+* PORT=Vdd TYPE=Other
+* PORT=B TYPE=In
+
+MM1n N1 B Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=1300 $y=3400 $w=400 $h=600
+MM1n1 Out N_1 Gnd Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4200 $y=3500 $w=400 $h=600
+MM2n N_1 A N1 Gnd NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=1300 $y=4200 $w=400 $h=600
+MM2p Out N_1 Vdd Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=4200 $y=4500 $w=400 $h=600
+MM3p N_1 A Vdd Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=1300 $y=5000 $w=400 $h=600
+MM4p N_1 B Vdd Vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=2500 $y=5000 $w=400 $h=600
+.ends
+
+
+

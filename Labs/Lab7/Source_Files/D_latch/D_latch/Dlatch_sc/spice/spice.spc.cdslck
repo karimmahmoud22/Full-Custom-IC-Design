@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsi
+HostName                       elc-vlsi-ecng-31-lnx
+ProcessIdentifier              3990
+ProcessCreationTime_UTC        1698822087
+ProcessCreationTime_Readable   Wed Nov  1 09:01:27 2023 
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/vlsi/Desktop/D_latch/D_latch/Dlatch_sc/spice/spice.spc.cdslck
+TimeEditLocked                 Wed Nov  1 11:21:52 2023 

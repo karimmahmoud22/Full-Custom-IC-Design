@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Half_Adder.dv
+dv_start matched                                  
+dv_cell {Half_Adder} {Half_Adder} matched
+dv_obj_count -transformed_nets {8 8} -transformed_inst {12 12} -transformed_port {6 6}
+dv_end

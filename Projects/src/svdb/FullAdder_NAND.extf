@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1702136893 1702136893
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/Karim_Project_Nand22
+lvs_ExtOutFile RULES_FILE _Generic_250nm_xRC.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/FullAdder_NAND.sp
+lvs_ExtOutFile EXTRACTION_REPORT FullAdder_NAND.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/FullAdder_NAND.pdsp }

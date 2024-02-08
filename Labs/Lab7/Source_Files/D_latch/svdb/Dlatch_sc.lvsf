@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/Desktop/D_latch
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT Dlatch_sc.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST Dlatch_sc.src.net
+lvs_LvsOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_LvsRunTimes 1699524956 1699524956

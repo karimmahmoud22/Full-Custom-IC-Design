@@ -1,0 +1,25 @@
+//
+//  Rule file generated on Sat Dec 9 18:04:10 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "C3.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "C3"
+
+SOURCE PATH "C3.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "C3"
+
+PEX NETLIST "C3.pex.netlist" CALIBREVIEW SOURCENAMES GROUND "Gnd"
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "C3.lvs.report"
+
+DRC ICSTATION YES
+
+INCLUDE "/eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/Rules/Calibre/Generic_250nm_xRC.cal"

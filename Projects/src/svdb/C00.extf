@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1701623436 1701623436
+lvs_ExtOutFile RUNDIR /home/vlsi/Desktop/Karim_Project_Nand
+lvs_ExtOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST C00.sp
+lvs_ExtOutFile EXTRACTION_REPORT C00.lvs.report.ext

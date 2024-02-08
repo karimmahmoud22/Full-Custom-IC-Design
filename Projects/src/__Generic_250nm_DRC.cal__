@@ -1,0 +1,24 @@
+//
+//  Rule file generated on Sat Nov 25 17:56:07 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "xor_gate.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "xor_gate"
+
+DRC RESULTS DATABASE "xor_gate.drc.results" ASCII
+DRC CELL NAME YES CELL SPACE XFORM
+
+DRC SUMMARY REPORT "xor_gate.drc.summary" REPLACE HIER
+
+DRC MAXIMUM RESULTS 1000
+
+DRC MAXIMUM VERTEX 4096
+
+DRC ICSTATION YES
+
+INCLUDE "/home/vlsi/Desktop/Karim_Project/_Generic_250nm_DRC.cal_"

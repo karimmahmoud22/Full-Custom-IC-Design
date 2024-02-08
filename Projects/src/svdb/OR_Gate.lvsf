@@ -1,0 +1,11 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/vlsi/Desktop/Karim_Project
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_SourceCase YES
+lvs_LayoutCase YES
+lvs_LvsOutFile LVS_REPORT OR_Gate.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST OR_Gate.src.net
+lvs_LvsOutFile RULES_FILE _Generic_250nm_LVS.cal_
+lvs_LvsRunTimes 1700925959 1700925959

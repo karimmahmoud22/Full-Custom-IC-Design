@@ -1,0 +1,7 @@
+DEFINE D_latch D_latch
+ASSIGN D_latch libMode shared
+INCLUDE /eda/Mentor/Tanner/TannerTools_v2022.2/Process/Generic_250nm/lib.defs
+DEFINE analogLib ../../../../eda/Mentor/Tanner/TannerTools_v2022.2/Process/Standard_Libraries/analogLib
+ASSIGN analogLib libMode shared
+DEFINE Test Test
+ASSIGN Test libMode shared

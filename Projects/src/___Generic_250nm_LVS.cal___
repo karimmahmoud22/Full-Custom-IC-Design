@@ -1,0 +1,28 @@
+//
+//  Rule file generated on Sat Nov 25 17:56:25 2023
+//  by Calibre Interactive v2023.3_29.15    Tue Aug 1 13:26:03 PDT 2023
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "xor_gate.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "xor_gate"
+
+SOURCE PATH "xor_gate.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "xor_gate"
+
+MASK SVDB DIRECTORY "svdb" QUERY
+
+LVS REPORT "xor_gate.lvs.report"
+
+LVS EXECUTE ERC YES
+
+ERC RESULTS DATABASE "xor_gate.erc.results"
+ERC CELL NAME YES CELL SPACE XFORM
+
+DRC ICSTATION YES
+
+INCLUDE "/home/vlsi/Desktop/Karim_Project/__Generic_250nm_LVS.cal__"

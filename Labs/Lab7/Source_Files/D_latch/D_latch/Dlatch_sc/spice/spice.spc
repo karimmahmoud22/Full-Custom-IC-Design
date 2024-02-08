@@ -1,0 +1,1 @@
+.include /home/vlsi/Desktop/D_latch/Dlatch_sc.pex.netlist

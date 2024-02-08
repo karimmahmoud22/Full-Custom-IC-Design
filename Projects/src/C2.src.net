@@ -1,0 +1,128 @@
+* SPICE export by:      S-Edit 2022.2.3
+* Export time:          Sat Dec  9 18:02:15 2023
+* Design path:          /home/vlsi/Desktop/Karim_Project_Nand22/lib.defs
+* Library:              Karim_Project
+* Cell:                 C2
+* Testbench:            Spice
+* View:                 schematic
+* Export as:            subcircuit definition
+* Export mode:          hierarchical
+* Exclude empty:        no
+* Exclude .model:       no
+* Exclude .hdl:         no
+* Exclude .end:         no
+* Expand paths:         no
+* Wrap lines:           no
+* Exclude simulator commands:  no
+* Exclude global pins:         no
+* Exclude instance locations:  no
+* Control property name(s):    LVS SPICE
+
+.SUBCKT NMOS25 D G S B
+.ENDS
+.SUBCKT PMOS25 D G S B
+.ENDS
+.SUBCKT NMOS33 D G S B
+.ENDS
+.SUBCKT PMOS33 D G S B
+.ENDS
+
+*************** Subcircuits ***************
+.subckt NAND3 A B C Z inh_vdd inh_vss 
+* Library name: Generic_250nm_LogicGates
+* Cell name: NAND3
+* View name: schematic
+* PORT=[@vdd:%:vdd!] TYPE=Virtual
+* PORT=B TYPE=In
+* PORT=A TYPE=In
+* PORT=[@vss:%:vss!] TYPE=Virtual
+* PORT=Z TYPE=Out
+* PORT=C TYPE=In
+
+* Design: Generic_250nm_LogicGates / Cell: NAND3 / View: schematic / Page: Page0
+* Designed by: Tanner EDA Library Development Team
+* Organization: Tanner EDA - Mentor Graphics
+* Info: 
+* Date: Mon Nov 18 19:26:35 2019
+* Revision: 1 $ $x=7600 $y=600 $w=3600 $h=1200
+MM1n N2 C inh_vss inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=3600 $y=2300 $w=400 $h=600
+MM2n N1 B N2 inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=3600 $y=3100 $w=400 $h=600
+MM3n Z A N1 inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=3600 $y=3900 $w=400 $h=600
+MM4p Z A inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=2200 $y=4600 $w=400 $h=600
+MM5p Z B inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=3600 $y=4600 $w=400 $h=600
+MM6p Z C inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=5000 $y=4600 $w=400 $h=600
+.ends
+
+.subckt NAND4 A B C D Z inh_vdd inh_vss 
+* Library name: Generic_250nm_LogicGates
+* Cell name: NAND4
+* View name: schematic
+* PORT=A TYPE=In
+* PORT=B TYPE=In
+* PORT=C TYPE=In
+* PORT=[@vdd:%:vdd!] TYPE=Virtual
+* PORT=[@vss:%:vss!] TYPE=Virtual
+* PORT=Z TYPE=Out
+* PORT=D TYPE=In
+
+* Design: Generic_250nm_LogicGates / Cell: NAND4 / View: schematic / Page: Page0
+* Designed by: Tanner EDA Library Development Team
+* Organization: Tanner EDA - Mentor Graphics
+* Info: 
+* Date: Mon Nov 18 19:26:35 2019
+* Revision: 75 $ $x=7600 $y=600 $w=3600 $h=1200
+MM1n N2 C N3 inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4300 $y=2100 $w=400 $h=600
+MM2n N1 B N2 inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4300 $y=2900 $w=400 $h=600
+MM3n Z A N1 inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4300 $y=3700 $w=400 $h=600
+MM7n N3 D inh_vss inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=4300 $y=1300 $w=400 $h=600
+MM4p Z A inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=2200 $y=4600 $w=400 $h=600
+MM5p Z B inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=3600 $y=4600 $w=400 $h=600
+MM6p Z C inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=5000 $y=4600 $w=400 $h=600
+MM8p Z D inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=6500 $y=4600 $w=400 $h=600
+.ends
+
+.subckt NAND2 A B Z inh_vdd inh_vss 
+* Library name: Generic_250nm_LogicGates
+* Cell name: NAND2
+* View name: schematic
+* PORT=A TYPE=In
+* PORT=[@vss:%:vss!] TYPE=Virtual
+* PORT=Z TYPE=Out
+* PORT=B TYPE=In
+* PORT=[@vdd:%:vdd!] TYPE=Virtual
+
+* Design: Generic_250nm_LogicGates / Cell: NAND2 / View: schematic / Page: Page0
+* Designed by: Tanner EDA Library Development Team
+* Organization: Tanner EDA - Mentor Graphics
+* Info: 2 Input NAND with complementary output.
+* Date: Sat Nov 16 01:50:29 2019
+* Revision: 1 $ $x=7600 $y=600 $w=3600 $h=1200
+MM1n N1 B inh_vss inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=3500 $y=2800 $w=400 $h=600
+MM2n Z A N1 inh_vss NMOS25 w=750n l=250n m=1 ad=487.5f pd=2.8u as=487.5f ps=2.8u nrd=866.66667m nrs=866.66667m mult=1 delvto=0 mulu0=1 $ $x=3500 $y=3600 $w=400 $h=600
+MM3p Z A inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=3500 $y=4400 $w=400 $h=600
+MM4p Z B inh_vdd inh_vdd PMOS25 w=1.25u l=250n m=1 ad=812.5f pd=3.8u as=812.5f ps=3.8u nrd=520m nrs=520m mult=1 delvto=0 mulu0=1 $ $x=4700 $y=4400 $w=400 $h=600
+.ends
+
+.subckt C2 C00 C2 G0 G1 G2 P0 P1 P2 vdd! vss! 
+* Library name: Karim_Project
+* Cell name: C2
+* View name: schematic
+* PORT=vss! TYPE=Other
+* PORT=vdd! TYPE=Other
+* PORT=P0 TYPE=In
+* PORT=G1 TYPE=In
+* PORT=P2 TYPE=In
+* PORT=G2 TYPE=In
+* PORT=G0 TYPE=In
+* PORT=C00 TYPE=In
+* PORT=P1 TYPE=In
+* PORT=C2 TYPE=Out
+
+XX1 G0 P1 P2 N_1 vdd! vss! NAND3 $ $x=3000 $y=3500 $w=1000 $h=500
+XX2 C00 P0 P1 P2 N_2 vdd! vss! NAND4 $ $x=3000 $y=5000 $w=1000 $h=500
+XX3 N_2 N_1 N_3 G2 C2 vdd! vss! NAND4 $ $x=6200 $y=4200 $w=1000 $h=500
+XX4 G1 P2 N_3 vdd! vss! NAND2 $ $x=3000 $y=2200 $w=1000 $h=500
+.ends
+
+
+

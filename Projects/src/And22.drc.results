@@ -1,0 +1,36 @@
+And22 1000
+Co.W
+1 1 3 Nov 25 16:49:40 2023                     
+Rule File Pathname: _Generic_250nm_DRC.cal_
+Rule File Title: Generic 0.25 um Process
+Contact Exact Size of 0.25 Microns
+p 1 4
+CN And22 c 1 0 0 1 0 0 0
+40515 22320
+40765 22320
+40765 22575
+40515 22575
+M1.W
+3 3 3 Nov 25 16:49:40 2023                     
+Rule File Pathname: _Generic_250nm_DRC.cal_
+Rule File Title: Generic 0.25 um Process
+Metal1 Minimum Width < 0.35 Microns
+e 1 2
+CN And22 c 1 0 0 1 0 0 0
+31575 22290 39590 22290
+31575 22515 39590 22515
+e 2 2
+39940 22290 40415 22290
+39940 22515 40415 22515
+e 3 2
+40415 22220 40603 22220
+40227 22515 40415 22515
+M1.S
+1 1 3 Nov 25 16:49:40 2023                     
+Rule File Pathname: _Generic_250nm_DRC.cal_
+Rule File Title: Generic 0.25 um Process
+Metal1 to Metal1 Spacing < 0.30 Microns
+e 1 2
+CN And22 c 1 0 0 1 0 0 0
+32001 22515 32869 22515
+32210 22730 32660 22730

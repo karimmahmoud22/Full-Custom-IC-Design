@@ -1,0 +1,41 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Ripple_Adder_Nand.dv
+dv_start notcompared                              
+dv_global
+dv_discrep 1 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 106.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 2 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 107.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 3 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 108.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 4 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 109.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 5 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 110.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 6 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 111.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 7 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 112.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 8 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 113.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_discrep 9 {Error: Syntax error}
+dv_discrep_line {Syntax Error in file "Ripple_Adder_Nand.src.net" at line 114.}
+dv_discrep_line {  Expected "Vxxx nplus nminus <<DC <=>> dc> <parnam=pval> ... <$X=x> <$Y=y> <$D=d>"}
+dv_discrep_line {}
+dv_end
